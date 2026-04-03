@@ -1,4 +1,7 @@
 import pandas as pd
+# This script analyzes a dataset of chess games stored in a CSV file.
+# The dataset includes game results, ratings, and openings.
+
 
 df = pd.read_csv("games_metadata_profile_2024_01.csv")
 
